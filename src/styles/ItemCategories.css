@@ -1,0 +1,25 @@
+.item-categories {
+    margin: 20px;
+  }
+  
+  .item-categories ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .item-categories li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    transition: background 0.3s;
+  }
+  
+  .item-categories li:hover {
+    background: #f0f0f0;
+  }
+  
+  .item-list {
+    margin-top: 10px;
+  }
+  
