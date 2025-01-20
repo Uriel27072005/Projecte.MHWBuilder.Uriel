@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import {
-  withStyles,
-} from "@mui/styles";
+import { withStyles } from "@mui/styles";
 import { Typography, Avatar, AppBar, Toolbar, Button, TextField, InputAdornment } from "@mui/material"; // Ensure InputAdornment is imported from @mui/material
 import { Refresh, Search } from "components/icons/MuiIconsDx";
 import ReactTable from "react-table";
