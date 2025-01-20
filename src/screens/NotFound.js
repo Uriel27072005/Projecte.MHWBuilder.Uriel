@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { Button, withStyles } from "@mui/core";
+import { Button, withStyles } from "@mui/material";
 
 const styles = () => ({
   NotFoundBtn: {

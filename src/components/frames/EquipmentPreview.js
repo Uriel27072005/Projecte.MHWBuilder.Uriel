@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import {
-  CardMedia, withStyles, Tooltip, IconButton,
-} from "@material-ui/core";
+  withStyles,
+} from "@mui/styles";
+import { Tooltip, CardMedia, IconButton } from '@mui/material';
 import _ from "lodash";
 import { Cached } from "components/icons/MuiIconsDx";
 import { primary1, grey0, grey5 } from "Colors";

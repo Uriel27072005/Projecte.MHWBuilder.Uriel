@@ -1,7 +1,8 @@
 import React from "react";
 import {
-  Grid, Button, TextField, withStyles,
-} from "@material-ui/core";
+  withStyles,
+} from "@mui/styles";
+import { Grid, TextField, Button } from "@mui/material";
 import { Formik } from "formik";
 import { Link } from "react-router-dom";
 

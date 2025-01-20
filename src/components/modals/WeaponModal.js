@@ -4,11 +4,9 @@ import { connect } from "react-redux";
 import { SlidingModal } from "components/modals";
 import { Panel, TableTwoCellsPanel } from "components/panels";
 import {
-  withStyles, Card, CardHeader, CardActions,
-  IconButton, CardContent, CardMedia,
-  TableRow, TableCell, Tooltip, FormControl, InputLabel,
-  Select, OutlinedInput, Button, MenuItem, Typography,
-} from "@material-ui/core";
+  withStyles,
+} from "@mui/styles";
+import { Card, CardHeader, CardContent, CardMedia, TableRow, TableCell, Tooltip, CardActions, Typography, FormControl, InputLabel, Select, OutlinedInput, MenuItem, Button, IconButton, Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material'; // Ensure Button is imported from @mui.material
 import { Close } from "components/icons/MuiIconsDx";
 import inflection from "inflection";
 import _ from "lodash";

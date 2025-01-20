@@ -4,8 +4,9 @@ import PrivateRoute from "services/auth/PrivateRoute";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import {
-  withStyles, Toolbar, AppBar, Grid,
-} from "@material-ui/core";
+  withStyles,
+} from "@mui/styles";
+import { AppBar, Toolbar, Grid } from "@mui/material"; // Ensure Grid is imported from @mui.material
 import {
   PowerSettingsNew, Settings,
   DashboardIcon,

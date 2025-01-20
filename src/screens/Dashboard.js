@@ -3,14 +3,8 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import {
   withStyles,
-  AppBar,
-  Toolbar,
-  Typography,
-  Button,
-  Avatar,
-  TextField,
-  InputAdornment,
-} from "@material-ui/core";
+} from "@mui/styles";
+import { Typography, Avatar, AppBar, Toolbar, Button, TextField, InputAdornment } from "@mui/material"; // Ensure InputAdornment is imported from @mui/material
 import { Refresh, Search } from "components/icons/MuiIconsDx";
 import ReactTable from "react-table";
 import matchSorter from "match-sorter";

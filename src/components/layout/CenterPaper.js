@@ -1,6 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from "react";
-import { withStyles, Grid, Paper } from "@mui/core/";
+import { withStyles } from "@mui/styles";
+import { Grid, Paper } from '@mui/material'; // Ensure Paper is imported from @mui/material
 import PropTypes from "prop-types";
 
 const styles = theme => ({

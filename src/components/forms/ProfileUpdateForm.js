@@ -1,9 +1,9 @@
 import React from "react";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import {
-  TextField, withStyles, Button, Grid, Typography,
-} from "@material-ui/core";
+import { withStyles } from "@mui/styles";
+import Grid from '@mui/material/Grid';
+import { Typography, TextField, Button } from "@mui/material";
 import { Formik } from "formik";
 
 import { fullProfileUpdate, enhanceProfile } from "store/ducks/Profile";

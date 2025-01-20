@@ -1,5 +1,6 @@
 import React from "react";
-import { withStyles, Paper, CardHeader } from "@mui/core";
+import { withStyles } from "@mui/styles";
+import { Paper, CardHeader } from '@mui/material'; // Ensure CardHeader is imported from @mui.material
 import { grey2, grey5 } from "Colors";
 
 const styles = () => ({

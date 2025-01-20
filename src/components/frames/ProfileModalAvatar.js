@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import {
-  CardMedia, Avatar, withStyles,
-} from "@mui/core";
+import { withStyles } from "@mui/styles";
+import { CardMedia, Avatar } from '@mui/material';
 import {
   darkishGrey,
 } from "Colors";

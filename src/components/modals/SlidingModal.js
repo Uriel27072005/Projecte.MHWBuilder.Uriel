@@ -1,5 +1,6 @@
 import React from "react";
-import { Modal, Slide } from "@mui/core";
+import { withStyles } from "@mui/styles";
+import { Modal, Slide } from '@mui/material'; // Ensure Slide is imported from @mui.material
 import PropTypes from "prop-types";
 
 function SlidingModal(props) {

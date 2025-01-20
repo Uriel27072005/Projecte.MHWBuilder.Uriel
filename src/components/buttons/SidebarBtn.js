@@ -1,5 +1,6 @@
 import React from "react";
-import { withStyles, Button, Grid } from "@mui/core";
+import { withStyles } from "@mui/styles";
+import { Button, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { primary1, grey0 } from "Colors";
