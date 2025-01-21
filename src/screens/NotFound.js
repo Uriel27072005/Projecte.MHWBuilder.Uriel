@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
 import { withStyles } from "@mui/styles";
 
-const styles = () => ({
+const styles = (theme) => ({
   NotFoundBtn: {
     width: "200px",
     display: "inline-block",
     textDecoration: "none",
-    marginTop: "10px",
+    marginTop: theme.spacing(1), // Ensure theme is used correctly
     fontWeight: "600",
   },
 });

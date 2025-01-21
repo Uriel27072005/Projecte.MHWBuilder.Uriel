@@ -21,12 +21,13 @@ import { ProfileUpdateForm, ProfileCreationForm } from "components/forms";
 import { Dashboard, Forge } from "screens";
 import { SidebarBtn } from "components/buttons";
 
-const styles = () => ({
+const styles = (theme) => ({
   sidebar: {
     gridArea: "Menu",
     width: "110px",
     height: "100vh",
     left: "0",
+    padding: theme.spacing(2), // Ensure theme is used correctly
   },
 });
 
