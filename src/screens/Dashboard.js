@@ -17,6 +17,7 @@ import {
   StyledTable,
   TextButton,
 } from "components/StyledComponents";
+import { dashboardStyles, toolbar, topbar, rTable, cellStyles } from "Styles";
 import { ProfileModal } from "components/modals";
 import {
   retrieveAllWeapons,
@@ -36,14 +37,6 @@ const defaultState = {
   selectedUserLoadouts: {},
   openModal: false,
 };
-
-const dashboardStyles = (theme) => ({
-  // ...existing styles...
-  refreshBtn: {
-    margin: theme.spacing(1), // Ensure theme is used correctly
-  },
-  // ...existing styles...
-});
 
 class Dashboard extends Component {
   constructor(props) {
@@ -198,6 +191,14 @@ class Dashboard extends Component {
     );
   }
 }
+
+const dashboardStyles = (theme) => ({
+  // ...existing styles...
+  refreshBtn: {
+    margin: theme.spacing(1), // Ensure theme is used correctly
+  },
+  // ...existing styles...
+});
 
 const componentWithStyles = withStyles(dashboardStyles)(Dashboard);
 
